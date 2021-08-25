@@ -7,7 +7,24 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Icons\" />
+    <None Remove="Icons\call.svg" />
+    <None Remove="Icons\plus.svg" />
+    <None Remove="Icons\video.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Icons\call.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\plus.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\video.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Core\" />
     <Folder Include="MVVM\View\" />
   </ItemGroup>
