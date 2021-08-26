@@ -7,16 +7,28 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Icons\call.png" />
     <None Remove="Icons\call.svg" />
+    <None Remove="Icons\plus.png" />
     <None Remove="Icons\plus.svg" />
+    <None Remove="Icons\video.png" />
     <None Remove="Icons\video.svg" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Icons\call.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Icons\call.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Icons\plus.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Icons\plus.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\video.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Icons\video.svg">
